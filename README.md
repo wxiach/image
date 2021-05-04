@@ -22,6 +22,14 @@ mkdir source
 ./image.sh
 ```
 
+上传到GitHub仓库
+
+```bash
+git add .
+git commit -m '注释'
+git push
+```
+
 ## 图片引用：
 
 ```url
