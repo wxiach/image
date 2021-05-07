@@ -22,14 +22,6 @@ mkdir source
 ./image.sh
 ```
 
-上传到GitHub仓库
-
-```bash
-git add .
-git commit -m '注释'
-git push
-```
-
 ## 图片引用：
 
 ```url
@@ -38,4 +30,4 @@ https://cdn.jsdelivr.net/gh/wxc0914/image/文件路径
 
 ## 注意
 
-image.sh文件：使用`md5sum`对文件进行重命名
+image.sh文件：使用`md5sum`对文件进行重命名，并完成向GitHub提交的任务。
