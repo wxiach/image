@@ -5,6 +5,8 @@ for name in ./source/*; do
 	mv $name ./${rename}.${name##*.}
 done
 
+git pull
+
 git add .
 
 git commit -m 'add images'
