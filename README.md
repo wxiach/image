@@ -1,33 +1,17 @@
-# 私人小图床
+# Figure Bed
 
-使用GitHub作为图片仓库，并搭配jsdelivr开源CDN加快图片访问速度。
+![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github)
+![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![jsDelivr](https://img.shields.io/badge/jsDelivr-007ACC?style=for-the-badge&logo=jsdelivr&logoColor=white)
 
-## 图片上传：
+Use GitHub as an image repository and combine it with jsdelivr open-source CDN to accelerate image access speed.
 
-进入图片文件夹
+## Referencing the image
 
-```bash
-cd image
+```
+https://cdn.jsdelivr.net/gh/0914xc/image/{file}
 ```
 
-创建存放原始图片的文件夹
+## Uploading new images
 
-```bash
-mkdir source
-```
-
-将图片放到source文件后，执行命令
-
-```bash
-./image.sh
-```
-
-## 图片引用：
-
-```url
-https://cdn.jsdelivr.net/gh/wxc0914/image/文件路径
-```
-
-## 注意
-
-image.sh文件：使用`md5sum`对文件进行重命名，并完成向GitHub提交的任务。
+Put the new image into the `source` folder and then run the script file `image.sh`.
