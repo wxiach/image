@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 for name in ./*; do
     ext="${name##*.}"
@@ -15,9 +15,11 @@ for name in ./*; do
     fi
 done
 
+cd ..
+
 git pull
 
-git add .
+git add --all
 
 git commit -m 'add images'
 
