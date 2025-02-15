@@ -9,7 +9,7 @@ Use GitHub as an image repository and combine it with jsdelivr open-source CDN t
 ## Referencing the image
 
 ```
-https://cdn.jsdelivr.net/gh/0914xc/image/{file}
+https://cdn.jsdelivr.net/gh/wxiach/image/{file}
 ```
 
 ## Uploading new images
